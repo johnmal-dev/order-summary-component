@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: url(/images/pattern-background-mobile.svg);
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main {
+  padding: 1.45rem;
+}
+.card {
+  border-radius: 20px;
+  background-color: white;
+}
+.card .hero img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.card .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.6rem;
+}
+.card .text h1 {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.card .text p {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 1.1rem 0;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #7280a7;
+}
+.card .text .plan-container {
+  width: 100%;
+  background-color: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+  margin: .5rem 0;
+  padding: 1rem;
+}
+.card .text .plan-container img {
+  height: 48px;
+  width: 48px;
+  margin-right: 1.2rem;
+}
+.card .text .plan-container h2 {
+  font-size: .89rem;
+  font-weight: 900;
+}
+.card .text .plan-container span {
+  color: #7280a7;
+  font-size: .91rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+.card .text .plan-container a {
+  font-size: .8rem;
+  font-weight: 700;
+  color: #3829e0;
+}
+.card .text .plan-container a:visited {
+  color: #1f2f56;
+}
+.card .text .proceed-btn {
+  background-color: #3829e0;
+  color: white;
+  width: 100%;
+  padding: .9rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1.11rem;
+  -webkit-box-shadow: 0 17px 10px #e0e8ff, 0 25px 10px #f5f7ff;
+          box-shadow: 0 17px 10px #e0e8ff, 0 25px 10px #f5f7ff;
+}
+.card .text .cancel-btn {
+  cursor: pointer;
+  color: #7280a7;
+  margin-top: 1.4rem;
+  font-weight: 700;
+  margin-bottom: .45rem;
+}
