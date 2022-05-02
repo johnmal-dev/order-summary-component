@@ -25,6 +25,7 @@ body {
   }
 }
 main {
+  height: 100vh;
   padding: 1.45rem;
   display: -webkit-box;
   display: -ms-flexbox;
