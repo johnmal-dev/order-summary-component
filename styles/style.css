@@ -92,11 +92,16 @@ main {
 .card .text .plan-container a:visited {
   color: #1f2f56;
 }
+.card .text .plan-container a:hover {
+  opacity: .5;
+  text-decoration: none;
+}
 .card .text .proceed-btn {
   background-color: #3829e0;
   color: white;
   width: 100%;
   padding: .9rem;
+  font-weight: 700;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
@@ -104,10 +109,16 @@ main {
   -webkit-box-shadow: 0 17px 10px #e0e8ff, 0 25px 10px #f5f7ff;
           box-shadow: 0 17px 10px #e0e8ff, 0 25px 10px #f5f7ff;
 }
+.card .text .proceed-btn:hover {
+  opacity: .5;
+}
 .card .text .cancel-btn {
   cursor: pointer;
   color: #7280a7;
   margin-top: 1.4rem;
   font-weight: 700;
   margin-bottom: .45rem;
+}
+.card .text .cancel-btn:hover {
+  color: #1f2f56;
 }
