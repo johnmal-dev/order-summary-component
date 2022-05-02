@@ -19,6 +19,9 @@ body {
 @media (min-width: 768px) {
   body {
     background: url(/images/pattern-background-desktop.svg);
+    background-color: #e0e8ff;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 main {
