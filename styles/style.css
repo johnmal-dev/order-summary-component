@@ -41,8 +41,8 @@ main {
   border-radius: 20px;
   background-color: white;
   max-width: 455px;
-  -webkit-box-shadow: 0 17px 10px #e0e8ff, 0 25px 10px #f5f7ff;
-          box-shadow: 0 17px 10px #e0e8ff, 0 25px 10px #f5f7ff;
+  -webkit-box-shadow: 0 15px 20px #7280a7;
+          box-shadow: 0 15px 20px #7280a7;
 }
 .card .hero img {
   width: 100%;
